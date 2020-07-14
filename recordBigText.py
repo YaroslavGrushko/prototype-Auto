@@ -60,30 +60,6 @@ RATE = 44100
 # for recording:
 from threading import Timer
 
-# # RANDOM SENTENCE >>>>>>>>>>>>>>>>>>>>>>>>
-# nouns = ('бджола', 'ліс', 'мрія', 'мед', "казка", "птахи", "сонце", "лісоруб", "ведмідь", "час", "заєць","вовк")
-# conj = ("і", "та", "як", "а","і","та", "і", "та", "як", "і")
-# prep = ("на", "через", "під", "навпростець", "навколо", "над", "у", "в","перед","спереду","перед")
-# verbs = ("летить", "йде", "танцює", "ллється", "пливе", "грає", "пахне", "світить", "шумить", "сидить") 
-# adv = ("сухо","дружньо", "тепло", "гарно", "мирно", "природньо", "привітньо", "легко", "розважливо", "поступово", "життєво")
-# adj = ("веселий", "життєвий", "мальовничий", "зелений", "охайний", "прекрасна", "спокійний","мужній","стриманий", "смішний")
-# num = random.randrange(0,9)
-#  # let's generate random sentence:
-# num1 = random.randrange(0,9)
-# num2 = random.randrange(0,9)
-# num3 = random.randrange(0,9)
-# num4 = random.randrange(0,9)
-# num5 = random.randrange(0,9)
-# num6 = random.randrange(0,9)
-# num7 = random.randrange(0,9)
-# num8 = random.randrange(0,9)
-# num9 = random.randrange(0,9)
-# num10 = random.randrange(0,9)
-#  # let's generate random sentence:
-# random_sentence = adj[num1]+' '+nouns[num2] + ' ' +prep[num3] +' '+nouns[num4+1]+' '+adv[num5]+' '+conj[num6]+' '+adv[num7+1]+' '+ verbs[num8] +' '+prep[num9+1]+' '+nouns[num10+2]
-   
-# RANDOM SENTENCE <<<<<<<<<<<<<<<<<<<<<<<<<
-
 # VOICE-FILE RECORDING:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 # timer>>>>>:
 # isSilent flag. whn thiflag is silent, than recording is stop
@@ -263,7 +239,7 @@ if __name__ == '__main__':
     # print("please, enter your name:")
     # label = input("")
     # PUT THEIR NAME OF CURRENT INDIVIDUAL SAMPLE
-    LABEL = "n"
+    LABEL = "y"
     print("ваше ім'я:" + str(LABEL))
     print("прочитайте текст в мікрофон на протягом 2х хвилин:")
     # print(str(random_sentence))
